@@ -1,4 +1,5 @@
 #!/bin/bash
 
+export RAILS_ENV=test
 script/bootstrap
 bundle exec rake spec
